@@ -1,0 +1,46 @@
+{
+  "eyebrow": "Cove Digital",
+  "heroTitle": "The",
+  "heroTitleMuted": "Team.",
+  "heroSub": "Strategist, marketer, and photographer — building brands for businesses that do great work and deserve to look like it.",
+  "primaryCtaLabel": "Work Together",
+  "primaryCtaHref": "/inquire",
+  "ghostCtaLabel": "See Services",
+  "ghostCtaHref": "/services",
+  "founderName": "Ben Scholl",
+  "founderTitle": "Founder & Chief Strategist",
+  "sidebarLabel": "Focus areas",
+  "sidebarTags": ["Brand Strategy", "Marketing", "Photography & Video", "Web & Digital"],
+  "content": [
+    {
+      "_template": "paragraph",
+      "text": "I'm Ben Scholl — founder and chief strategist at Cove Digital. I built this agency because I kept running into the same problem: **businesses that were genuinely excellent at what they did, presenting themselves like they weren't.** Dated logos. Inconsistent visuals. No clear message. Great work hidden behind a brand that didn't reflect it."
+    },
+    {
+      "_template": "paragraph",
+      "text": "My background spans formal marketing education, an Adobe Digital Marketing certificate, and hands-on production experience — including a photography and video business that competed at the national level through FBLA, **winning in video production.** That combination is the foundation of how I work: strategy tells you what to say, and strong production gives you something worth saying it with."
+    },
+    {
+      "_template": "pullQuote",
+      "text": "\"Your brand is the first conversation you have with a customer — usually before you ever know they're listening.\""
+    },
+    {
+      "_template": "paragraph",
+      "text": "I handle brand strategy, identity, photography, and web work — all under one roof. **Brand strategy is where I live.** The rest exists because a strong brand needs execution to match, and I'd rather handle it myself than watch a generic template undo everything else we worked on."
+    },
+    {
+      "_template": "paragraph",
+      "text": "I'm based in Pike County, PA and work with businesses wherever the work takes me. Every project gets the same thing: a direct line to the person doing the thinking, honest timelines, and no handoffs to a junior team you never met."
+    }
+  ],
+  "cta": {
+    "label": "Let's talk",
+    "heading": "Ready to look like",
+    "headingGradient": "you mean it?",
+    "sub": "Reach out and I'll get back to you within 24 hours — no pitch, just a conversation.",
+    "primaryCtaLabel": "Start a Project",
+    "primaryCtaHref": "/inquire",
+    "ghostCtaLabel": "Explore Services",
+    "ghostCtaHref": "/services"
+  }
+}

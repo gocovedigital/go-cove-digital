@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "links": [
+      { "label": "Services",  "href": "/services", "isCta": false },
+      { "label": "The Team",  "href": "/team",     "isCta": false },
+      { "label": "Inquire",   "href": "/inquire",  "isCta": true  }
+    ]
+  },
+  "footer": {
+    "tags": ["Strategy", "Design", "Production"],
+    "copyright": "© 2026 Cove Digital"
+  }
+}

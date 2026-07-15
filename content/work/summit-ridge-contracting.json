@@ -1,0 +1,129 @@
+{
+  "title": "Summit Ridge",
+  "titleMuted": "Contracting.",
+  "lead": "A skilled local contractor with fifteen years of quality work and a digital presence that made them look like they'd just started. We rebuilt everything from the ground up.",
+  "metaPills": [
+    { "label": "Case Study",     "highlight": true  },
+    { "label": "Brand Identity", "highlight": false },
+    { "label": "Photography",    "highlight": false },
+    { "label": "Web & Digital",  "highlight": false },
+    { "label": "Pike County, PA","highlight": false }
+  ],
+  "overview": [
+    { "label": "Client",   "value": "Summit Ridge Contracting" },
+    { "label": "Location", "value": "Milford, PA" },
+    { "label": "Services", "value": "Brand · Web · Photography" },
+    { "label": "Industry", "value": "General Contracting" },
+    { "label": "Timeline", "value": "5 Weeks" }
+  ],
+  "sections": [
+    {
+      "sectionLabel": "01 · Situation",
+      "navLabel": "Situation",
+      "heading": "Fifteen years of work. Zero online presence worth mentioning.",
+      "paragraphs": [
+        "Summit Ridge had built a strong local reputation the old-fashioned way — word of mouth, handshakes, and work that spoke for itself. Their crew was experienced, their jobs were clean, and their customers referred them constantly. But anyone who didn't already know them? They were invisible.",
+        "The owner had been putting off the brand and website for years. He knew it needed to happen — he just didn't have the time, and every agency he'd spoken to wanted a budget that didn't make sense for a small contracting operation. **The work was there. The brand wasn't.**"
+      ],
+      "callout": { "type": "problem", "label": "The Problem", "body": "A logo made in Microsoft Paint, a Facebook business page acting as the only web presence, no consistent visual identity, and zero photos of actual completed work. Homeowners researching contractors online simply couldn't take them seriously." },
+      "beforeItems": [],
+      "afterItems": [],
+      "deliverables": []
+    },
+    {
+      "sectionLabel": "02 · Approach",
+      "navLabel": "Approach",
+      "heading": "Built for trust, not for trends.",
+      "paragraphs": [
+        "Contracting is a high-trust purchase. Homeowners aren't just hiring someone to do work — they're letting strangers into their house and trusting them with a significant investment. The brand needed to communicate reliability, experience, and professionalism without looking like every other contractor who slapped a hard hat on a clip art logo.",
+        "We kept it grounded. **Dark palette, strong typography, clean layout.** Nothing gimmicky. The kind of brand that makes someone think \"these people know what they're doing\" before they ever pick up the phone."
+      ],
+      "callout": { "type": "solution", "label": "The Direction", "body": "Professional and straightforward. A brand that looks established, not startup-fresh. One that earns trust by not trying too hard." },
+      "beforeItems": [],
+      "afterItems": [],
+      "deliverables": []
+    },
+    {
+      "sectionLabel": "03 · Brand Identity",
+      "navLabel": "Brand",
+      "heading": "A mark they could put on everything.",
+      "paragraphs": [
+        "We started with the logo — something that could live on a truck door, a yard sign, a hard hat sticker, and a website header and look equally at home in all four. From there we built out the full system: colors, type, and usage guidelines so every touchpoint stayed consistent without anyone having to think about it."
+      ],
+      "beforeItems": [
+        "Logo made in MS Paint",
+        "No defined color palette",
+        "Random fonts across materials",
+        "No truck or yard sign branding",
+        "Quotes sent as plain text emails"
+      ],
+      "afterItems": [
+        "Clean logo with full + icon versions",
+        "3-color brand palette with guidelines",
+        "Defined type system",
+        "Truck wrap template + yard sign file",
+        "Branded quote/invoice template"
+      ],
+      "deliverables": [
+        "Primary logo + icon mark",
+        "Brand color & typography guide",
+        "Truck wrap template",
+        "Yard sign + door hanger files",
+        "Branded quote & invoice template",
+        "Business card design"
+      ]
+    },
+    {
+      "sectionLabel": "04 · Web & Digital",
+      "navLabel": "Web",
+      "heading": "A site that works like a salesperson.",
+      "paragraphs": [
+        "The website had one job: when a homeowner in Pike County Googles \"contractor near me\" and clicks through, they should immediately feel like they're in good hands. Services clearly listed, completed work front and center, and a contact form that actually gets used.",
+        "We kept it simple by design. **One page, all the essentials** — no bloated CMS, no plugins to maintain, nothing that would break six months after launch. Fast, clean, and easy to find."
+      ],
+      "beforeItems": [],
+      "afterItems": [],
+      "deliverables": [
+        "Single-page website, mobile-optimized",
+        "Google Business Profile setup & photos",
+        "Contact form with email notifications",
+        "Basic local SEO setup"
+      ]
+    },
+    {
+      "sectionLabel": "05 · Photography",
+      "navLabel": "Photography",
+      "heading": "Show the work, not just the logo.",
+      "paragraphs": [
+        "Contractors live and die by their portfolio. Every homeowner considering hiring Summit Ridge wanted to see finished jobs — not stock photos of construction workers, not blurry phone shots, but **clean, well-lit images of real completed projects** that demonstrated the quality of their actual work.",
+        "We shot a half-day session across two recently completed job sites — a deck build and a full basement renovation — plus some on-site crew shots for the website's about section. Everything captured with the brand's visual direction in mind."
+      ],
+      "beforeItems": [],
+      "afterItems": [],
+      "deliverables": [],
+      "pullQuote": {
+        "text": "\"I've been meaning to get real photos of our work for ten years. Now I actually want to show people the website.\"",
+        "attribution": "— Owner, Summit Ridge Contracting"
+      }
+    },
+    {
+      "sectionLabel": "06 · Result",
+      "navLabel": "Result",
+      "heading": "Looks like what they always were.",
+      "paragraphs": [
+        "Summit Ridge launched with a complete brand system, a live website, an updated Google Business Profile, and a library of job-site photography — everything a homeowner needs to say yes before they ever make a call.",
+        "The owner reported that within the first month, multiple new clients mentioned finding them through Google — something that hadn't happened before. **The work didn't change. The way people found and evaluated them did.**"
+      ],
+      "callout": { "type": "solution", "label": "What They Left With", "body": "A brand they own outright, a website that requires no ongoing subscription or maintenance contract, a full photography library, and a Google presence that actually shows up. All in five weeks, start to finish." },
+      "beforeItems": [],
+      "afterItems": [],
+      "deliverables": []
+    }
+  ],
+  "cta": {
+    "sectionLabel": "Your Business",
+    "heading": "Ready to look like",
+    "headingGradient": "you mean it?",
+    "sub": "Every project starts with a conversation. Reach out and I'll get back to you within 24 hours."
+  }
+}

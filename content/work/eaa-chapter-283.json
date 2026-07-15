@@ -1,0 +1,140 @@
+{
+  "title": "EAA Chapter 283",
+  "titleMuted": "",
+  "lead": "A local chapter of the Experimental Aircraft Association with a website that failed to convey current events and engage members.",
+  "metaPills": [
+    {
+      "label": "Case Study",
+      "highlight": true
+    },
+    {
+      "label": "Brand Identity",
+      "highlight": false
+    },
+    {
+      "label": "Wayne County, PA",
+      "highlight": false
+    }
+  ],
+  "overview": [
+    {
+      "label": "Client",
+      "value": "EAA Chapter 283"
+    },
+    {
+      "label": "Location",
+      "value": "Honesdale, PA"
+    },
+    {
+      "label": "Services",
+      "value": "Web Design & Development"
+    }
+  ],
+  "sections": [
+    {
+      "sectionLabel": "01 · Situation",
+      "navLabel": "Situation",
+      "heading": "Good bar. Forgettable brand.",
+      "paragraphs": [
+        "Ridgeline Tavern had been a fixture in Hawley for years. Real food, good prices, the kind of place locals actually go. But their brand told a different story — a pixelated logo on a clipart sign, inconsistent fonts across their menus and Facebook page, and photos that made the food look worse than it tasted.",
+        "The owner knew the place had something. **She just couldn't show anyone what it was.** New visitors would Google them, see the outdated presence, and either move on or show up with low expectations — neither of which she wanted."
+      ],
+      "callout": {
+        "type": "problem",
+        "label": "The Problem",
+        "body": "No consistent visual identity across any touchpoint. Photography that undersold a genuinely good experience. Nothing that communicated what made Ridgeline worth the drive."
+      },
+      "beforeItems": [
+        "test"
+      ],
+      "afterItems": [],
+      "deliverables": []
+    },
+    {
+      "sectionLabel": "02 · Approach",
+      "navLabel": "Approach",
+      "heading": "Start with what's already true.",
+      "paragraphs": [
+        "The best brand work doesn't invent a personality — it finds the one that already exists and builds a visual system around it. Ridgeline had a clear identity: **unpretentious, local, no-nonsense**. Good food, cold drinks, no dress code. The brand just needed to say that clearly.",
+        "We started with a conversation about who their customers actually are, what keeps them coming back, and what kind of new customer they were trying to attract. From there, everything — colors, typography, photography style — followed from that core."
+      ],
+      "callout": {
+        "type": "solution",
+        "label": "The Direction",
+        "body": "Warm, grounded, and confident. Nothing trendy. A brand that feels like the place itself — lived-in and worth returning to."
+      },
+      "beforeItems": [],
+      "afterItems": [],
+      "deliverables": []
+    },
+    {
+      "sectionLabel": "03 · Brand Work",
+      "navLabel": "Brand Work",
+      "heading": "A visual identity built to last.",
+      "paragraphs": [
+        "We developed a full brand package — logo system, color palette, typography, and usage guidelines — designed to work consistently across every surface they use, from menus to social media to signage."
+      ],
+      "beforeItems": [
+        "Pixelated clipart logo",
+        "3+ mismatched fonts in use",
+        "No defined color palette",
+        "Inconsistent across platforms",
+        "Menu designed in Word"
+      ],
+      "afterItems": [
+        "Clean logo with primary + alternate marks",
+        "Defined type system, two fonts",
+        "Warm 4-color brand palette",
+        "Usage guide for every surface",
+        "Redesigned print menu"
+      ],
+      "deliverables": [
+        "Primary logo + alternate lockups",
+        "Brand color palette & typography guide",
+        "Redesigned print menu",
+        "Social media profile assets",
+        "Branded signage template",
+        "Full brand usage guidelines"
+      ]
+    },
+    {
+      "sectionLabel": "04 · Photography",
+      "navLabel": "Photography",
+      "heading": "Images that match the brand.",
+      "paragraphs": [
+        "New branding only goes so far if the photos still look like a flip phone took them. We shot a full session at Ridgeline — food, atmosphere, behind the bar — with the brand direction in mind from the start. Warm light, real moments, nothing staged to the point of feeling fake.",
+        "**The goal was simple:** someone should be able to look at these photos and immediately understand what kind of place Ridgeline is, and want to be there."
+      ],
+      "beforeItems": [],
+      "afterItems": [],
+      "deliverables": [],
+      "pullQuote": {
+        "text": "\"The photos finally looked like the place we'd been running for ten years.\"",
+        "attribution": "— Owner, Ridgeline Tavern"
+      }
+    },
+    {
+      "sectionLabel": "05 · Result",
+      "navLabel": "Result",
+      "heading": "Looks like what it always was.",
+      "paragraphs": [
+        "Ridgeline walked away with a complete brand identity and a full photography library — everything they needed to show up consistently online, in print, and in person. The brand didn't change who they were. It just finally said it clearly.",
+        "Within a week of updating their Facebook and Google listing with the new photos and logo, the owner reported the most engagement she'd seen on a post in years — without running a single ad."
+      ],
+      "callout": {
+        "type": "solution",
+        "label": "What They Left With",
+        "body": "A brand identity they own outright, photography assets ready for any use, and a visual presence that finally matches the quality of their actual business."
+      },
+      "beforeItems": [],
+      "afterItems": [],
+      "deliverables": []
+    }
+  ],
+  "cta": {
+    "sectionLabel": "Your Business",
+    "heading": "Ready to look like",
+    "headingGradient": "you mean it?",
+    "sub": "Every project starts with a conversation. Reach out and I'll get back to you within 24 hours."
+  }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 188 36" fill="none">
+  <!-- Wave mark -->
+  <path d="M 2 12 Q 7 8 12 12 Q 17 16 22 12 Q 27 8 32 12" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M 2 19 Q 7 15 12 19 Q 17 23 22 19 Q 27 15 32 19" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M 2 26 Q 7 22 12 26 Q 17 30 22 26 Q 27 22 32 26" stroke="#4f80ff" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Wordmark -->
+  <text x="42" y="25" font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif" fill="white">
+    <tspan font-size="20" font-weight="700" letter-spacing="-0.5">Cove</tspan><tspan font-size="20" font-weight="300" dx="5" fill="rgba(255,255,255,0.62)">Digital</tspan>
+  </text>
+</svg>
