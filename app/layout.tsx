@@ -21,6 +21,7 @@ const playfairDisplay = Playfair_Display({
 export const metadata: Metadata = {
   title: 'Cove Digital | Strategic Branding & Digital Systems',
   description: 'Refined brand strategy and digital systems for businesses that mean business.',
+  icons: { icon: '/icon.svg' },
 }
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
