@@ -6,6 +6,10 @@ node_modules/
 out/
 .vercel/
 
+# OpenNext / Wrangler build output
+.open-next/
+.wrangler/
+
 # env — never commit secrets
 .env
 .env.local
