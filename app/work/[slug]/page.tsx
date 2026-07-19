@@ -32,7 +32,8 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const entries = await getWork()
   const entry = entries.find((e) => e.slug === params.slug)
   if (!entry) return {}
-  return { title: `${entry.title ?? ''} ${entry.titleMuted ?? ''} — Case Study | Cove Digital`.trim() }
+  const titleMuted = entry.titleMuted ?? entry.title_muted ?? ''
+  return { title: `${entry.title ?? ''} ${titleMuted} — Case Study | Cove Digital`.trim() }
 }
 
 export default async function WorkPage({ params }: { params: { slug: string } }) {

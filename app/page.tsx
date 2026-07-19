@@ -44,6 +44,9 @@ const FALLBACK = {
   },
 }
 
+// Harbor list-of-string fields arrive as [{ value: "..." }] — unwrap to plain strings.
+const vals = (arr: any[] | undefined): string[] => (arr ?? []).map((x) => x?.value ?? x)
+
 export default async function HomePage() {
   let home = FALLBACK
   try {
@@ -52,10 +55,10 @@ export default async function HomePage() {
     if (h) {
       home = {
         hero: {
-          line1:             h.hero_line1           ?? FALLBACK.hero.line1,
-          line2Prefix:       h.hero_line2_prefix    ?? FALLBACK.hero.line2Prefix,
-          cyclingWords:      h.hero_cycling_words   ?? FALLBACK.hero.cyclingWords,
-          sub:               h.hero_sub             ?? FALLBACK.hero.sub,
+          line1:             h.hero_line1             ?? FALLBACK.hero.line1,
+          line2Prefix:       h.hero_line2_prefix      ?? FALLBACK.hero.line2Prefix,
+          cyclingWords:      vals(h.hero_cycling_words).length ? vals(h.hero_cycling_words) : FALLBACK.hero.cyclingWords,
+          sub:               h.hero_sub               ?? FALLBACK.hero.sub,
           primaryCtaLabel:   h.hero_primary_cta_label ?? FALLBACK.hero.primaryCtaLabel,
           primaryCtaHref:    h.hero_primary_cta_href  ?? FALLBACK.hero.primaryCtaHref,
           ghostCtaLabel:     h.hero_ghost_cta_label   ?? FALLBACK.hero.ghostCtaLabel,
@@ -70,17 +73,21 @@ export default async function HomePage() {
           heading:      h.services_heading       ?? FALLBACK.services.heading,
           ctaLabel:     h.services_cta_label     ?? FALLBACK.services.ctaLabel,
           ctaHref:      h.services_cta_href      ?? FALLBACK.services.ctaHref,
-          cards:        h.services_cards         ?? FALLBACK.services.cards,
+          cards: h.services_cards?.length
+            ? h.services_cards.map((c: any) => ({
+                number: c.number, title: c.title, description: c.description, bullets: vals(c.bullets),
+              }))
+            : FALLBACK.services.cards,
         },
         process: {
           title: h.process_title ?? FALLBACK.process.title,
-          steps: h.process_steps ?? FALLBACK.process.steps,
+          steps: h.process_steps?.length ? h.process_steps : FALLBACK.process.steps,
         },
         contact: {
-          heading:        h.contact_heading         ?? FALLBACK.contact.heading,
-          intro:          h.contact_intro           ?? FALLBACK.contact.intro,
-          serviceOptions: h.contact_service_options ?? FALLBACK.contact.serviceOptions,
-          submitLabel:    h.contact_submit_label    ?? FALLBACK.contact.submitLabel,
+          heading:        h.contact_heading      ?? FALLBACK.contact.heading,
+          intro:          h.contact_intro        ?? FALLBACK.contact.intro,
+          serviceOptions: vals(h.contact_service_options).length ? vals(h.contact_service_options) : FALLBACK.contact.serviceOptions,
+          submitLabel:    h.contact_submit_label ?? FALLBACK.contact.submitLabel,
         },
       }
     }

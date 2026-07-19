@@ -21,7 +21,7 @@ export default function Nav({ global }: { global?: any }) {
     <nav className="site-nav">
       <div className="nav-inner">
         <Link href="/" className="nav-logo">
-          <img src="/cove-logo.svg" alt="Cove Digital" />
+          <img src="https://pub-d747071e79ff40d6bd2f2b88b1e9a9b8.r2.dev/Cove-Digital-White.png" alt="Cove Digital" />
         </Link>
         <div className="nav-links">
           {links.map((link, i) => (

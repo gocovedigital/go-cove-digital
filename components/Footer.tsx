@@ -1,12 +1,13 @@
 export default function Footer({ global }: { global?: any }) {
-  // Harbor fields: footer_tags (text list), footer_copyright (text)
-  const tags: string[] = global?.footer_tags ?? ['Strategy', 'Design', 'Production']
+  // Harbor fields: footer_tags (list of {value}), footer_copyright (text)
+  const rawTags: any[] = global?.footer_tags ?? []
+  const tags: string[] = rawTags.length ? rawTags.map((t) => t?.value ?? t) : ['Strategy', 'Design', 'Production']
   const copy: string   = global?.footer_copyright ?? '© 2026 Cove Digital'
 
   return (
     <footer>
       <div className="footer-brand">
-        <img src="/cove-logo.svg" alt="Cove Digital" />
+        <img src="https://pub-d747071e79ff40d6bd2f2b88b1e9a9b8.r2.dev/Cove-Digital-White.png" alt="Cove Digital" />
       </div>
       <div className="footer-tags">
         {tags.map((tag, i) => (

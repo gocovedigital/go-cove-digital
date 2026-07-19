@@ -32,12 +32,21 @@ export default function WorkClient({ work }: { work: any }) {
     return () => { obs.disconnect(); scrollObs.disconnect() }
   }, [])
 
-  // Support both TinaCMS field names (camelCase) and Harbor field names (snake_case)
+  // Harbor list-of-string fields arrive as [{ value: "..." }] — unwrap to plain strings.
+  const vals = (arr: any[] | undefined): string[] => (arr ?? []).map((x) => x?.value ?? x)
+
+  // Support both local-JSON field names (camelCase, nested objects) and
+  // Harbor field names (snake_case, flattened — no nested `cta`/`callout`/`pullQuote`).
   const metaPills:  any[] = d.metaPills   ?? d.meta_pills   ?? []
   const overview:   any[] = d.overview    ?? []
   const sections:   any[] = d.sections    ?? []
-  const cta:        any   = d.cta         ?? {}
   const titleMuted: string = d.titleMuted ?? d.title_muted ?? ''
+  const cta: any = d.cta ?? {
+    sectionLabel:    d.cta_section_label,
+    heading:         d.cta_heading,
+    headingGradient: d.cta_heading_gradient,
+    sub:             d.cta_sub,
+  }
 
   return (
     <>
@@ -93,12 +102,16 @@ export default function WorkClient({ work }: { work: any }) {
 
         <div className="case-content">
           {sections.map((sec: any, i: number) => {
-            const beforeItems:  string[] = sec?.beforeItems  ?? sec?.before_items  ?? []
-            const afterItems:   string[] = sec?.afterItems   ?? sec?.after_items   ?? []
-            const deliverables: string[] = sec?.deliverables ?? []
-            const paragraphs:   string[] = sec?.paragraphs   ?? []
-            const pullQuote:    any      = sec?.pullQuote    ?? sec?.pull_quote    ?? null
-            const callout:      any      = sec?.callout      ?? null
+            const beforeItems:  string[] = vals(sec?.beforeItems  ?? sec?.before_items)
+            const afterItems:   string[] = vals(sec?.afterItems   ?? sec?.after_items)
+            const deliverables: string[] = vals(sec?.deliverables)
+            const paragraphs:   string[] = vals(sec?.paragraphs)
+            const pullQuote: any = sec?.pullQuote ?? sec?.pull_quote ?? (
+              sec?.pull_quote_text ? { text: sec.pull_quote_text, attribution: sec.pull_quote_attribution } : null
+            )
+            const callout: any = sec?.callout ?? (
+              sec?.callout_label ? { type: sec.callout_type, label: sec.callout_label, body: sec.callout_body } : null
+            )
 
             return (
               <div key={i} className="content-block reveal" id={`section-${i}`} data-idx={i}>
